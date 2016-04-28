@@ -1,3 +1,4 @@
 Länkar:
 
 https://developer.mozilla.org/en-US/docs/Tools 
+https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf 
