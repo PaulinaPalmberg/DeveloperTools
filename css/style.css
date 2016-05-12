@@ -19,3 +19,26 @@ li a {
 li a:hover {
 	background-color: #111;
 }
+.content{
+	max-width: 60%;
+	margin: auto;
+}
+.left{
+	width: 48%;
+	float: left;
+}
+.right{
+	width: 48%;
+	text-align: right;
+	float: right;
+}
+.middle{
+  position: fixed;
+	top: 38%;
+}
+hr{
+	max-width: 60%;
+}
+h1, h2{
+	text-align: center;
+}
