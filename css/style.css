@@ -23,7 +23,9 @@ hr{
 h1, h2{
 	text-align: center;
 }
+
 /***NAV***/
+
 nav ul{
 	max-width: 60%;
 	margin: 0 auto;
@@ -46,7 +48,12 @@ nav li:first-of-type{
 nav li.active{
 	grow: 20%
 }
+
 /***BUTTON***/
-.middle{
-  position: fixed;
-	top: 38%;
+
+.middle-button{
+	clear: both;
+	position: static;
+	right: 500px;
+	z-index: +15;
+}
