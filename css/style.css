@@ -2,7 +2,9 @@
 -----GLOBAL-----
 */
 
-/***CENTER TEXT***/
+/***
+  CENTER TEXT
+***/
 
 .content{
 	max-width: 60%;
@@ -23,8 +25,13 @@ hr{
 h1, h2{
 	text-align: center;
 }
+h2{
+	padding-bottom: 22px;
+}
 
-/***NAV***/
+/***
+  NAV
+***/
 
 nav ul{
 	max-width: 60%;
@@ -49,11 +56,13 @@ nav li.active{
 	grow: 20%
 }
 
-/***BUTTON***/
+/***
+  BUTTON
+***/
 
 .middle-button{
-	clear: both;
-	position: static;
-	right: 500px;
+	position: absolute;
+	left: 47%;
 	z-index: +15;
+	top: 18%;
 }
