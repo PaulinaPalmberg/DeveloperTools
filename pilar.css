@@ -1,0 +1,16 @@
+.link {
+  position: absolute;
+  top: 50%;
+}
+.ett {
+  left: 10%;
+}
+.tva {
+  left: 80%;
+}
+.pilar {
+  max-width: 80%;
+}
+.content {
+  max-width: 70%;
+}
