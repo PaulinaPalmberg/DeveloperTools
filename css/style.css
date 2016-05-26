@@ -37,7 +37,7 @@ h2{
 
 nav ul{
 	max-width: 60%;
-	margin: 0 auto;
+	margin: 15px auto;
 	clear: both;
 	text-align: center;
 }
@@ -58,7 +58,7 @@ nav li.active{
 	grow: 20%
 }
 .special {
-	padding-bottom: 3px;
+	padding-bottom: 4px;
 }
 
 /***
@@ -130,10 +130,33 @@ footer {
 
 
 /*** STILGUIDE ***/
-
-.color {
+.stilguide {
 	background-color: white;
+	border-radius: 10px;
+}
+.color {
+	overflow: auto;
+}
+.grey, .vit, .svart {
+	float: left;
 	text-align: center;
+	margin: 0 auto;
+	padding-right: 20px;
+}
+.vit > img {
+	border: 1px solid black;
+}
+
+.bilder {
+	max-width: 90%;
+}
+.bilder > p {
+	float: left;
+	max-width: 70px;
+}
+.bilder > p:last-of-type {
+	padding-left: 10px;
+	text-align: right;
 }
 
 
