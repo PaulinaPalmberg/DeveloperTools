@@ -1,15 +1,21 @@
 /*
 -----GLOBAL-----
 */
-
+body {
+	background-color: #c8c8c0;
+}
 /***
   CENTER TEXT
 ***/
 
+
 .content{
 	max-width: 60%;
-	margin: auto;
+	margin: 0 auto 15px auto;
+	padding: 0 20px;
 	overflow: auto;
+	/*background-color: #c8c8c0;
+	border-radius: 20px;*/
 }
 .left{
 	width: 48%;
@@ -20,15 +26,18 @@
 	text-align: right;
 	float: right;
 }
-hr{
-	max-width: 60%;
-}
 h1, h2{
 	text-align: center;
 }
 h2{
 	padding-bottom: 22px;
 }
+/*header {
+	background-color: #a3a295;
+	max-width: 30%;
+	margin: 0 auto;
+	border-radius: 10px;
+}*/
 
 /***
   NAV
@@ -56,11 +65,6 @@ nav li:first-of-type{
 nav li.active{
 	grow: 20%
 }
-
-nav {
-	border: 1px solid red;
-	
-}
 .special {
 	padding-bottom: 3px;
 }
@@ -75,6 +79,12 @@ nav {
 	z-index: +15;
 	top: 18%;
 }
+
+.hr {
+	max-width: 60%;
+	margin: 0 auto;
+}
+
 
 /*** PILAR - FRAM OCH TILLBAKA ***/
 
@@ -96,3 +106,32 @@ nav {
   max-width: 70%;
 }
 
+/*** FOOTER ***/
+
+footer {
+	margin: 30px auto;
+	max-width: 60%;
+	height: 2.5em;
+}
+.vanster {
+	float: left;
+	width: 31.5%;
+	text-align: right;
+	margin-right: 10px;
+}
+.mitten {
+	float: left;
+	border-right: 1px solid black;
+	width: 20%;
+	text-align: left;
+	padding: 2px 2px 2px 0;
+}
+.hoger {
+	float: right;
+	width: 46%;
+	text-align: left;
+	padding-top: 9px;
+}
+.copy {
+	font-size: 2em;
+}
