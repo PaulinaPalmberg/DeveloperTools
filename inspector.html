@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel = "stylesheet" href="css/footer.css"/>
+	<title>Developer Tools</title>
+</head>
+<body>
+	<div id="wrapper">
+		
+		<header>
+			<h1>Developer Tools</h1>
+			
+			<h2>Inspect element</h2>
+		</header>
+		<div class="pilar">
+			<a href="index.html" class="link ett"><img src="bilder/rewind.png" alt="..."></a>
+			<a href="#" class="link tva"><img src="bilder/forward.png" alt="..."></a>
+		
+		<div class="content">
+			<section class="left">
+				<p>
+					Först och främst behöver man öppna inspektorn om man vill använda sig av den. Det gör man enkelt genom att högerklicka och välj ”inspect element”, genom att trycka på ”inspector” i menyn eller genom att använda sig av kortkommandot på tangentbordet (Ctrl + Shift + I).
+				</p>
+				<p>
+					Om du valde att öppna inspektorn genom att högerklicka någonstans i koden kommer det element där du hade musen vara valt. Du kan enkelt välja ett nytt element genom att hovra i din html-kod och trycka på det element du vill välja. När du hovrar kommer du också kunna se var elementet ligger på din sida. Detta kan vara bra om du inte vet vilket element som är vilket eller om t.ex. två element har hamnat ovanpå varandra. Det kan också vara så att element inte syns (för att det av någon anledning inte har något innehåll) då kommer det att synas när du går igenom html-koden.
+				</p>
+				<p>
+					Här kan man bland annat använda sig av ”boxmodellen”. För att få fram boxmodellen för t.ex. din navigering på sidan går du med musen till navigeringen i html-koden och vänsterklickar. Det ska då finnas en flik i inspektorn som heter ”box model”. Trycker du på den kommer det fram en bild på en ”låda”. Du kan då lätt ändra olika värden genom att trycka på den siffa du vill ändra.
+				</p>
+			</section>
+			<section class="right">
+				<p>
+					Om man går till CSS-fliken kan man lätt se de olika färger man använder sig av. För i koden där en färg är vald finns det en liten cirkel i just din färg (precis framför värdet i t.ex. hexadecimalt). Inte nog med att man ser vilken färg man valt, man kan lätt ändra färg om man inte är nöjd. Det är bara att klicka på cirkeln så kommer det upp en färgkarta där man kan välja vilken färg man vill.
+				</p>
+				<p>
+					Du kan flytta dina element runt om på din sida enkelt genom att dra det dit du vill. DOCK finns det en liten sak som måste stämma först. Elementet du vill flytta på måste ha position-värdet: absolute, relative eller fixed och det får inte ha något av värderna: top, bottom, left eller right. Om detta är fallet går du till boxmodellen där det ska finnas en liten knapp du ska trycka på. Knappen sitter precis ovanför boxen bredvid ditt värde (t.ex. absolute). Om du trycker på den knappen kommer två handtag dyka upp på ditt valda element. Det är med dessa handtag du flyttar runt elementet var du vill på sidan. Om elementet du har valt har värdet absolut kommer en streckad linje visa var elementet först låg.
+				</p>
+			</section>
+		</div>
+		</div>
+		
+		
+		<nav>
+			<ul>
+				<li class="navItem"><a href="index.html"><img src="bilder/last.png" alt="..."></a></li>
+				<li class="navItem" class="active"><a href="hur.html"><img class="special" src="bilder/punkt2.gif" alt="..."></a></li>
+				<li class="navItem"><a href="#"><img class="special" src="bilder/punkt2.gif" alt="..."></a></li>
+				<li class="navItem"><a href="#"><img class="special" src="bilder/punkt2.gif" alt="..."></a></li>
+				<li class="navItem"><a href="#"><img class="special" src="bilder/punkt2.gif" alt="..."></a></li>
+				<li class="navItem"><a href="#"><img class="special" src="bilder/punkt2.gif" alt="..."></a></li>
+				<li class="navItem"><a href="stilguide.html"><img src="bilder/last2.png" alt="..."></a></li>
+			</ul>
+		</nav>
+		
+		<footer>
+			<section class="vanster">
+				<span class="copy">&copy;</span>
+				Paulina Palmberg <br>
+				Alexander Ersbjörnsson
+			</section>
+			<section class="hoger">
+				Marks Gymnasieskola
+			</section>
+		</footer>
+		
+	</div>
+</body>
+</html>
