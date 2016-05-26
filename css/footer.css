@@ -37,6 +37,9 @@ footer{
 .vanster, .hoger, .mitten{
 	float: left;
 }
+.mitten, .vanster{
+	text-align: right;
+}
 .copy{
 	
 }

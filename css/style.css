@@ -173,4 +173,7 @@ footer {
 		max-width: 60%;
 		padding-top: 10px;
 	}
+	hr{
+		max-width: 100%;
+	}
 }
