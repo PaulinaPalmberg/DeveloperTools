@@ -61,8 +61,8 @@ nav {
 	border: 1px solid red;
 	
 }
-special {
-	margin-bottom: 4px;
+.special {
+	padding-bottom: 3px;
 }
 
 /***
