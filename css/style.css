@@ -131,7 +131,7 @@ footer {
 
 /*** BRYTPUNKTER ***/
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
 	/*** CENTER TEXT ***/
 	
 	.left, .right {
@@ -144,5 +144,6 @@ footer {
 	.content {
 		margin: 0 auto;
 		max-width: 60%;
+		padding-top: 10px;
 	}
 }
