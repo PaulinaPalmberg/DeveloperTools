@@ -67,7 +67,28 @@ nav li.active{
 	top: 18%;
 }
 
+/*** PILAR - FRAM OCH TILLBAKA ***/
+
+.link {
+  position: absolute;
+  top: 50%;
+}
+.ett {
+  left: 10%;
+}
+.tva {
+  left: 80%;
+}
+.pilar {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.content {
+  max-width: 70%;
+}
+
 /*** FOOTER ***/
+
 footer {
 	margin: 30px auto;
 	max-width: 60%;
