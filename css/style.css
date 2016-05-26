@@ -10,7 +10,7 @@ body {
 
 
 .content{
-	max-width: 60%;
+	max-width: 80%;
 	margin: 0 auto 15px auto;
 	padding: 0 20px;
 	overflow: auto;
@@ -131,8 +131,8 @@ footer {
 
 /*** STILGUIDE ***/
 .stilguide {
-	background-color: white;
-	border-radius: 10px;
+	max-width: 50%;
+	margin: 0 auto;
 }
 .color {
 	overflow: auto;
@@ -143,12 +143,8 @@ footer {
 	margin: 0 auto;
 	padding-right: 20px;
 }
-.vit > img {
+.grey > img {
 	border: 1px solid black;
-}
-
-.bilder {
-	max-width: 90%;
 }
 .bilder > p {
 	float: left;
