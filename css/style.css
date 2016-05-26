@@ -9,6 +9,7 @@
 .content{
 	max-width: 60%;
 	margin: auto;
+	overflow: auto;
 }
 .left{
 	width: 48%;
@@ -54,6 +55,14 @@ nav li:first-of-type{
 }
 nav li.active{
 	grow: 20%
+}
+
+nav {
+	border: 1px solid red;
+	
+}
+special {
+	margin-bottom: 4px;
 }
 
 /***
