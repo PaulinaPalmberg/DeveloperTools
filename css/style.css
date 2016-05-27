@@ -54,10 +54,10 @@ nav li:last-of-type{
 nav li:first-of-type{
 	padding: 15px;
 }
-nav li.navItemActive{
+/*nav li.navItemActive{
 	padding: 10px;
 	background-color: red;
-}
+}*/
 .special {
 	padding-bottom: 4px;
 }
@@ -68,7 +68,7 @@ nav li.navItemActive{
 
 .middle-button{
 	position: absolute;
-	left: 47%;
+	left: 48.3%;
 	z-index: +15;
 	top: 121px;
 }
@@ -98,10 +98,6 @@ nav li.navItemActive{
 .content {
   max-width: 70%;
 }
-
-/*** FOOTER ***/
-
-
 
 /*** STILGUIDE ***/
 .stilguide {

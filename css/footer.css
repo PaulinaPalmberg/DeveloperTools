@@ -1,33 +1,5 @@
 /*** FOOTER ***/
-/*
-footer {
-	margin: 30px auto;
-	max-width: 60%;
-	height: 2.5em;
-}
-.vanster {
-	float: left;
-	width: 31.5%;
-	text-align: right;
-	margin-right: 10px;
-}
-.mitten {
-	float: left;
-	border-right: 1px solid black;
-	width: 20%;
-	text-align: left;
-	padding: 2px 2px 2px 0;
-}
-.hoger {
-	float: right;
-	width: 46%;
-	text-align: left;
-	padding-top: 9px;
-}
-.copy {
-	font-size: 2em;
-}
-*/
+
 footer{
 	max-width: 320px;
 	margin: auto;
@@ -53,4 +25,14 @@ footer{
 	position: absolute;
 	right: 170px;
 	font-size: 2.3em;
+}
+
+/*** SPECIAL LÄNKNING PÅ SISTA SIDAN ***/
+.skaffa footer hr{
+	position: relative;
+	top: 3em;
+	left: -60%;
+	width: 110%;
+	color: black;
+	height: 1px;
 }
