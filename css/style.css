@@ -54,8 +54,9 @@ nav li:last-of-type{
 nav li:first-of-type{
 	padding: 15px;
 }
-nav li.active{
-	grow: 20%
+nav li.navItemActive{
+	padding: 10px;
+	background-color: red;
 }
 .special {
 	padding-bottom: 4px;
