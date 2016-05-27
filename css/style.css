@@ -30,6 +30,10 @@ h1, h2{
 h2{
 	padding-bottom: 22px;
 }
+.annorlunda {
+	margin: 0 auto;
+	max-width: 60%;
+}
 
 /***
   NAV
