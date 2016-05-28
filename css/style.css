@@ -59,6 +59,7 @@ nav li.navItemActive{
 }
 nav a{
 	text-decoration: none;
+	color: black;
 }
 nav li:last-of-type{
 	padding-left: 15px;
