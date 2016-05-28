@@ -36,3 +36,11 @@ footer{
 	color: black;
 	height: 1px;
 }
+.skaffa footer{
+	padding-bottom: 3em;
+}
+#extralankar{
+	float: left;
+	padding-top: 1em;
+	text-align: center;
+}

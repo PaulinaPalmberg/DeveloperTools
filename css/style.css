@@ -49,6 +49,14 @@ nav li{
 	display: inline;
 	padding: 10px;
 }
+nav li.navItem{
+	position: relative;
+	bottom: 4px
+}
+nav li.navItemActive{
+	position: relative;
+	bottom: 4px
+}
 nav a{
 	text-decoration: none;
 }
@@ -58,14 +66,10 @@ nav li:last-of-type{
 nav li:first-of-type{
 	padding: 15px;
 }
-/*nav li.navItemActive{
-	padding: 10px;
-	background-color: red;
-}*/
-.special {
-	padding-bottom: 5px;
+nav li.navItemActive{
+	font-weight: bold;
+	font-size: 1.1em;
 }
-
 /***
   BUTTON
 ***/
