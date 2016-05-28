@@ -164,7 +164,7 @@ nav li:first-of-type{
 .color {
 	overflow: auto;
 }
-.grey, .vit, .svart {
+.grey, .svart {
 	float: left;
 	text-align: center;
 	margin: 0 auto;
@@ -176,6 +176,7 @@ nav li:first-of-type{
 .bilder > p {
 	float: left;
 	max-width: 70px;
+	padding-right: 10px;
 }
 .bilder > p:last-of-type {
 	padding-left: 10px;
